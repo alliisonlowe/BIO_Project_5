@@ -2,10 +2,26 @@ html{
     --background-color: #F8F4F2;
     --dark-contrast: #242325;
     --accent-color: #5E4C5A;
-    --primary-one: #55917F;
+    --primary-one: #4B8171;
     --primary-two: #6BAB90;
 
     background-color: var(--background-color);
 }
 
+nav{
+    background: var(--primary-one);
+    color: var(--background-color);
+    font-size: 1em;
+    height: 3em;
+}
 
+.navbar-link{
+    color: var(--background-color);
+    margin-right: 2em;
+    margin-top: .1em;
+}
+
+.navbar-link:hover{
+    color: var(--accent-color);
+    text-decoration: none;
+}
