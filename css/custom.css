@@ -1,0 +1,11 @@
+html{
+    --background-color: #F8F4F2;
+    --dark-contrast: #242325;
+    --accent-color: #5E4C5A;
+    --primary-one: #55917F;
+    --primary-two: #6BAB90;
+
+    background-color: var(--background-color);
+}
+
+
